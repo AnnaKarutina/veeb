@@ -21,3 +21,4 @@ class ListBookingsController
         return $this->twigEnv->render('list.html.twig', ['bookings' => $result]);
     }
 }
+    
